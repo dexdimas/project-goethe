@@ -1,0 +1,6 @@
+framework module Pods_project_goethe {
+  umbrella header "Pods-project-goethe-umbrella.h"
+
+  export *
+  module * { export * }
+}
