@@ -11,6 +11,7 @@ import UIKit
 class OnboardingCollectionViewCell: UICollectionViewCell {
 
     @IBOutlet weak var titleLabel: UILabel!
+    @IBOutlet weak var descriptionLabel: UILabel!
     @IBOutlet weak var imageView: UIImageView!
     
     static let identifier = "OnboardingCollectionViewCell"
@@ -23,6 +24,7 @@ class OnboardingCollectionViewCell: UICollectionViewCell {
     func configureCell(page: OnboardingPage) {
         // set the title and description of the screen
         self.titleLabel.text = page.title
+        self.descriptionLabel.text = page.description
         self.imageView.image = page.image
     }
 

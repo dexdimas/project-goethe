@@ -8,6 +8,17 @@
 
 /* Begin PBXBuildFile section */
 		7F1C349D74674B34CF3FFDB8 /* Pods_project_goethe.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F68FC3E6A4BF7C596FD28C74 /* Pods_project_goethe.framework */; };
+		8974DC6424984895001B6BBE /* CollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8974DC6324984895001B6BBE /* CollectionViewController.swift */; };
+		8974DC6724984CF9001B6BBE /* CollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8974DC6524984CF9001B6BBE /* CollectionViewCell.swift */; };
+		8974DC6824984CF9001B6BBE /* CollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8974DC6624984CF9001B6BBE /* CollectionViewCell.xib */; };
+		8981F7A524938522003B065A /* OnboardingContent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8981F7A424938522003B065A /* OnboardingContent.swift */; };
+		8981F7A724946815003B065A /* Settings.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8981F7A624946815003B065A /* Settings.storyboard */; };
+		8981F7A9249468E8003B065A /* Camera.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8981F7A8249468E8003B065A /* Camera.storyboard */; };
+		8981F7AB24946908003B065A /* Collection.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8981F7AA24946908003B065A /* Collection.storyboard */; };
+		8981F7AD24946925003B065A /* Studio.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8981F7AC24946925003B065A /* Studio.storyboard */; };
+		8981F7AF24949639003B065A /* CameraViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8981F7AE24949639003B065A /* CameraViewController.swift */; };
+		8981F7B3249779E3003B065A /* Preview.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8981F7B2249779E3003B065A /* Preview.storyboard */; };
+		8981F7B524978D57003B065A /* PreviewViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8981F7B424978D57003B065A /* PreviewViewController.swift */; };
 		8993F1C12493163000FB15A4 /* Onboarding.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8993F1C02493163000FB15A4 /* Onboarding.storyboard */; };
 		8993F1C42493198200FB15A4 /* OnboardingCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8993F1C22493198200FB15A4 /* OnboardingCollectionViewCell.swift */; };
 		8993F1C52493198200FB15A4 /* OnboardingCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8993F1C32493198200FB15A4 /* OnboardingCollectionViewCell.xib */; };
@@ -20,10 +31,27 @@
 		89B8DBA1248E2C03008BFE0F /* project_goethe.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 89B8DB9F248E2C03008BFE0F /* project_goethe.xcdatamodeld */; };
 		89B8DBA3248E2C04008BFE0F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 89B8DBA2248E2C04008BFE0F /* Assets.xcassets */; };
 		89B8DBA6248E2C04008BFE0F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 89B8DBA4248E2C04008BFE0F /* LaunchScreen.storyboard */; };
+		89C9D46B2497DA3B00569C7B /* ColorModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89C9D46A2497DA3B00569C7B /* ColorModel.swift */; };
+		89C9D46D2497DB9600569C7B /* CoreDataHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89C9D46C2497DB9600569C7B /* CoreDataHelper.swift */; };
+		89C9D46F2497DC2000569C7B /* UIViewController+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89C9D46E2497DC2000569C7B /* UIViewController+Extensions.swift */; };
+		89C9D4712497DC7400569C7B /* Color+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89C9D4702497DC7400569C7B /* Color+Extensions.swift */; };
+		89C9D4732497E7ED00569C7B /* ColorManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89C9D4722497E7ED00569C7B /* ColorManager.swift */; };
+		89C9D4752497EB3300569C7B /* ColorData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89C9D4742497EB3300569C7B /* ColorData.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		187B8F814AF8EAFAE047B13C /* Pods-project-goethe.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-project-goethe.debug.xcconfig"; path = "Target Support Files/Pods-project-goethe/Pods-project-goethe.debug.xcconfig"; sourceTree = "<group>"; };
+		8974DC6324984895001B6BBE /* CollectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionViewController.swift; sourceTree = "<group>"; };
+		8974DC6524984CF9001B6BBE /* CollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionViewCell.swift; sourceTree = "<group>"; };
+		8974DC6624984CF9001B6BBE /* CollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CollectionViewCell.xib; sourceTree = "<group>"; };
+		8981F7A424938522003B065A /* OnboardingContent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingContent.swift; sourceTree = "<group>"; };
+		8981F7A624946815003B065A /* Settings.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Settings.storyboard; sourceTree = "<group>"; };
+		8981F7A8249468E8003B065A /* Camera.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Camera.storyboard; sourceTree = "<group>"; };
+		8981F7AA24946908003B065A /* Collection.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Collection.storyboard; sourceTree = "<group>"; };
+		8981F7AC24946925003B065A /* Studio.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Studio.storyboard; sourceTree = "<group>"; };
+		8981F7AE24949639003B065A /* CameraViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraViewController.swift; sourceTree = "<group>"; };
+		8981F7B2249779E3003B065A /* Preview.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Preview.storyboard; sourceTree = "<group>"; };
+		8981F7B424978D57003B065A /* PreviewViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PreviewViewController.swift; sourceTree = "<group>"; };
 		8993F1C02493163000FB15A4 /* Onboarding.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Onboarding.storyboard; sourceTree = "<group>"; };
 		8993F1C22493198200FB15A4 /* OnboardingCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingCollectionViewCell.swift; sourceTree = "<group>"; };
 		8993F1C32493198200FB15A4 /* OnboardingCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = OnboardingCollectionViewCell.xib; sourceTree = "<group>"; };
@@ -38,6 +66,12 @@
 		89B8DBA2248E2C04008BFE0F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		89B8DBA5248E2C04008BFE0F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		89B8DBA7248E2C04008BFE0F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		89C9D46A2497DA3B00569C7B /* ColorModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorModel.swift; sourceTree = "<group>"; };
+		89C9D46C2497DB9600569C7B /* CoreDataHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreDataHelper.swift; sourceTree = "<group>"; };
+		89C9D46E2497DC2000569C7B /* UIViewController+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIViewController+Extensions.swift"; sourceTree = "<group>"; };
+		89C9D4702497DC7400569C7B /* Color+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Color+Extensions.swift"; sourceTree = "<group>"; };
+		89C9D4722497E7ED00569C7B /* ColorManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorManager.swift; sourceTree = "<group>"; };
+		89C9D4742497EB3300569C7B /* ColorData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorData.swift; sourceTree = "<group>"; };
 		C118A2C7A7F99686BE41D155 /* Pods-project-goethe.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-project-goethe.release.xcconfig"; path = "Target Support Files/Pods-project-goethe/Pods-project-goethe.release.xcconfig"; sourceTree = "<group>"; };
 		F68FC3E6A4BF7C596FD28C74 /* Pods_project_goethe.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_project_goethe.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -67,6 +101,10 @@
 			isa = PBXGroup;
 			children = (
 				8993F1C624931C8600FB15A4 /* OnboardingPage.swift */,
+				8981F7A424938522003B065A /* OnboardingContent.swift */,
+				89C9D46A2497DA3B00569C7B /* ColorModel.swift */,
+				89C9D4722497E7ED00569C7B /* ColorManager.swift */,
+				89C9D4742497EB3300569C7B /* ColorData.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -74,10 +112,17 @@
 		8993F1CB2493252800FB15A4 /* View */ = {
 			isa = PBXGroup;
 			children = (
-				89B8DB9C248E2C03008BFE0F /* Main.storyboard */,
 				8993F1C02493163000FB15A4 /* Onboarding.storyboard */,
 				8993F1C32493198200FB15A4 /* OnboardingCollectionViewCell.xib */,
 				8993F1C22493198200FB15A4 /* OnboardingCollectionViewCell.swift */,
+				89B8DB9C248E2C03008BFE0F /* Main.storyboard */,
+				8981F7A8249468E8003B065A /* Camera.storyboard */,
+				8981F7B2249779E3003B065A /* Preview.storyboard */,
+				8981F7AA24946908003B065A /* Collection.storyboard */,
+				8974DC6524984CF9001B6BBE /* CollectionViewCell.swift */,
+				8974DC6624984CF9001B6BBE /* CollectionViewCell.xib */,
+				8981F7AC24946925003B065A /* Studio.storyboard */,
+				8981F7A624946815003B065A /* Settings.storyboard */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -87,6 +132,9 @@
 			children = (
 				89B8DB9A248E2C03008BFE0F /* ViewController.swift */,
 				8993F1C824931D0600FB15A4 /* OnboardingViewController.swift */,
+				8981F7AE24949639003B065A /* CameraViewController.swift */,
+				8981F7B424978D57003B065A /* PreviewViewController.swift */,
+				8974DC6324984895001B6BBE /* CollectionViewController.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -121,6 +169,9 @@
 				89B8DBA4248E2C04008BFE0F /* LaunchScreen.storyboard */,
 				89B8DBA7248E2C04008BFE0F /* Info.plist */,
 				89B8DB9F248E2C03008BFE0F /* project_goethe.xcdatamodeld */,
+				89C9D46C2497DB9600569C7B /* CoreDataHelper.swift */,
+				89C9D46E2497DC2000569C7B /* UIViewController+Extensions.swift */,
+				89C9D4702497DC7400569C7B /* Color+Extensions.swift */,
 			);
 			path = "project-goethe";
 			sourceTree = "<group>";
@@ -193,9 +244,15 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8981F7AB24946908003B065A /* Collection.storyboard in Resources */,
+				8981F7B3249779E3003B065A /* Preview.storyboard in Resources */,
+				8974DC6824984CF9001B6BBE /* CollectionViewCell.xib in Resources */,
 				89B8DBA6248E2C04008BFE0F /* LaunchScreen.storyboard in Resources */,
+				8981F7A9249468E8003B065A /* Camera.storyboard in Resources */,
 				89B8DBA3248E2C04008BFE0F /* Assets.xcassets in Resources */,
 				89B8DB9E248E2C03008BFE0F /* Main.storyboard in Resources */,
+				8981F7A724946815003B065A /* Settings.storyboard in Resources */,
+				8981F7AD24946925003B065A /* Studio.storyboard in Resources */,
 				8993F1C12493163000FB15A4 /* Onboarding.storyboard in Resources */,
 				8993F1C52493198200FB15A4 /* OnboardingCollectionViewCell.xib in Resources */,
 			);
@@ -250,13 +307,24 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8981F7A524938522003B065A /* OnboardingContent.swift in Sources */,
 				89B8DB9B248E2C03008BFE0F /* ViewController.swift in Sources */,
+				8974DC6724984CF9001B6BBE /* CollectionViewCell.swift in Sources */,
+				89C9D46F2497DC2000569C7B /* UIViewController+Extensions.swift in Sources */,
+				89C9D4752497EB3300569C7B /* ColorData.swift in Sources */,
 				89B8DBA1248E2C03008BFE0F /* project_goethe.xcdatamodeld in Sources */,
+				8981F7B524978D57003B065A /* PreviewViewController.swift in Sources */,
+				89C9D46B2497DA3B00569C7B /* ColorModel.swift in Sources */,
+				89C9D4732497E7ED00569C7B /* ColorManager.swift in Sources */,
 				8993F1C42493198200FB15A4 /* OnboardingCollectionViewCell.swift in Sources */,
+				8974DC6424984895001B6BBE /* CollectionViewController.swift in Sources */,
+				89C9D46D2497DB9600569C7B /* CoreDataHelper.swift in Sources */,
 				89B8DB97248E2C03008BFE0F /* AppDelegate.swift in Sources */,
 				8993F1C924931D0600FB15A4 /* OnboardingViewController.swift in Sources */,
 				89B8DB99248E2C03008BFE0F /* SceneDelegate.swift in Sources */,
+				89C9D4712497DC7400569C7B /* Color+Extensions.swift in Sources */,
 				8993F1C724931C8600FB15A4 /* OnboardingPage.swift in Sources */,
+				8981F7AF24949639003B065A /* CameraViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

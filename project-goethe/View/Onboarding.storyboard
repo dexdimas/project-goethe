@@ -17,9 +17,8 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" bounces="NO" pagingEnabled="YES" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" bouncesZoom="NO" dataMode="prototypes" translatesAutoresizingMaskIntoConstraints="NO" id="1ol-I6-Jgd">
-                                <rect key="frame" x="0.0" y="44" width="414" height="818"/>
-                                <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
-                                <collectionViewFlowLayout key="collectionViewLayout" scrollDirection="horizontal" automaticEstimatedItemSize="YES" minimumLineSpacing="0.0" minimumInteritemSpacing="0.0" id="0to-Ww-ckf">
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                                <collectionViewFlowLayout key="collectionViewLayout" scrollDirection="horizontal" minimumLineSpacing="0.0" minimumInteritemSpacing="0.0" id="0to-Ww-ckf">
                                     <size key="itemSize" width="128" height="128"/>
                                     <size key="headerReferenceSize" width="0.0" height="0.0"/>
                                     <size key="footerReferenceSize" width="0.0" height="0.0"/>
@@ -97,9 +96,9 @@
                             <constraint firstItem="Epz-ZA-q75" firstAttribute="centerX" secondItem="anF-M2-4dJ" secondAttribute="centerX" id="LsO-ww-ley"/>
                             <constraint firstItem="Fzv-sJ-Ye6" firstAttribute="leading" secondItem="2q8-BK-gzs" secondAttribute="leading" constant="6" id="UNb-Ct-Ysc"/>
                             <constraint firstItem="lfa-PX-rhE" firstAttribute="leading" secondItem="2q8-BK-gzs" secondAttribute="leading" id="dUh-BY-xQl"/>
-                            <constraint firstItem="2q8-BK-gzs" firstAttribute="bottom" secondItem="1ol-I6-Jgd" secondAttribute="bottom" id="fOH-GH-wJ3"/>
+                            <constraint firstAttribute="bottom" secondItem="1ol-I6-Jgd" secondAttribute="bottom" id="fOH-GH-wJ3"/>
                             <constraint firstItem="1ol-I6-Jgd" firstAttribute="leading" secondItem="anF-M2-4dJ" secondAttribute="leading" id="h9O-la-qvM"/>
-                            <constraint firstItem="1ol-I6-Jgd" firstAttribute="top" secondItem="2q8-BK-gzs" secondAttribute="top" id="nvs-gX-STl"/>
+                            <constraint firstItem="1ol-I6-Jgd" firstAttribute="top" secondItem="anF-M2-4dJ" secondAttribute="top" id="nvs-gX-STl"/>
                             <constraint firstItem="2q8-BK-gzs" firstAttribute="bottom" secondItem="Epz-ZA-q75" secondAttribute="bottom" id="vbP-tX-oVJ"/>
                             <constraint firstItem="1ol-I6-Jgd" firstAttribute="centerX" secondItem="anF-M2-4dJ" secondAttribute="centerX" id="wNC-mF-H3H"/>
                         </constraints>

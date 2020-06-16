@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="16097" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="Z7d-uM-wZl">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="16087"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Camera View Controller-->
+        <scene sceneID="h6v-0r-PGR">
+            <objects>
+                <viewController storyboardIdentifier="CameraStoryboard" id="Z7d-uM-wZl" customClass="CameraViewController" customModule="Spectra" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="GE1-qc-kCu">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="tOC-Br-C31">
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                            </view>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="kub-R1-cMF">
+                                <rect key="frame" x="65.5" y="745.5" width="35" height="40"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="35" id="6et-rO-aVD"/>
+                                    <constraint firstAttribute="height" constant="38.5" id="tVT-Is-jFv"/>
+                                </constraints>
+                                <color key="tintColor" white="1" alpha="0.39878531678082191" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <state key="normal" backgroundImage="bolt.slash" catalog="system"/>
+                                <connections>
+                                    <action selector="flashButtonTapped:" destination="Z7d-uM-wZl" eventType="touchUpInside" id="Cg5-yN-wfx"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="01h-Gk-yOd" userLabel="Rotate Button">
+                                <rect key="frame" x="311" y="751.5" width="40" height="33"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="40" id="71F-Zv-9ay"/>
+                                    <constraint firstAttribute="height" constant="34" id="oPA-Eg-40d"/>
+                                </constraints>
+                                <color key="tintColor" white="1" alpha="0.40000000000000002" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <state key="normal" backgroundImage="arrow.2.circlepath" catalog="system"/>
+                                <connections>
+                                    <action selector="rotateButtonTapped:" destination="Z7d-uM-wZl" eventType="touchUpInside" id="qqw-qh-Ulv"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bux-33-gdA" userLabel="Capture Button">
+                                <rect key="frame" x="170" y="731" width="74" height="74"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="74" id="ggq-4j-vna"/>
+                                    <constraint firstAttribute="height" constant="74" id="qvJ-Q8-Ebz"/>
+                                </constraints>
+                                <state key="normal" image="CaptureButton"/>
+                                <connections>
+                                    <action selector="captureButtonTapped:" destination="Z7d-uM-wZl" eventType="touchUpInside" id="LtY-ga-C1N"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <constraints>
+                            <constraint firstItem="bpt-WR-NiG" firstAttribute="bottom" secondItem="kub-R1-cMF" secondAttribute="bottom" constant="77" id="1WO-RD-RIE"/>
+                            <constraint firstAttribute="bottom" secondItem="tOC-Br-C31" secondAttribute="bottom" id="1uQ-W5-OaX"/>
+                            <constraint firstItem="tOC-Br-C31" firstAttribute="leading" secondItem="GE1-qc-kCu" secondAttribute="leading" id="9S2-83-0Y1"/>
+                            <constraint firstItem="tOC-Br-C31" firstAttribute="top" secondItem="GE1-qc-kCu" secondAttribute="top" id="BPw-DH-h7e"/>
+                            <constraint firstAttribute="trailing" secondItem="tOC-Br-C31" secondAttribute="trailing" id="Tgs-AD-gTS"/>
+                            <constraint firstItem="bpt-WR-NiG" firstAttribute="bottom" secondItem="bux-33-gdA" secondAttribute="bottom" constant="57" id="ZBW-xg-ZA2"/>
+                            <constraint firstItem="bpt-WR-NiG" firstAttribute="bottom" secondItem="01h-Gk-yOd" secondAttribute="bottom" constant="77" id="dtv-sn-6rI"/>
+                            <constraint firstItem="kub-R1-cMF" firstAttribute="centerX" secondItem="GE1-qc-kCu" secondAttribute="centerX" multiplier="0.4" id="k0g-7i-i78"/>
+                            <constraint firstItem="01h-Gk-yOd" firstAttribute="centerX" secondItem="GE1-qc-kCu" secondAttribute="centerX" multiplier="1.6" id="r40-6E-CBU"/>
+                            <constraint firstItem="bux-33-gdA" firstAttribute="centerX" secondItem="GE1-qc-kCu" secondAttribute="centerX" id="tU3-zS-g8g"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="bpt-WR-NiG"/>
+                    </view>
+                    <connections>
+                        <outlet property="cameraView" destination="tOC-Br-C31" id="Poa-FP-uPS"/>
+                        <outlet property="flashButton" destination="kub-R1-cMF" id="cTj-dc-qb9"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Pfh-bl-mkN" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="505.79710144927537" y="-202.23214285714286"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="CaptureButton" width="74" height="74"/>
+        <image name="arrow.2.circlepath" catalog="system" width="128" height="101"/>
+        <image name="bolt.slash" catalog="system" width="101" height="128"/>
+    </resources>
+</document>

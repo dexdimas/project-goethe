@@ -16,10 +16,7 @@ class OnboardingViewController: UIViewController, UICollectionViewDataSource, UI
     @IBOutlet weak var pageControl: UIPageControl!
     @IBOutlet weak var collectionView: UICollectionView!
     
-    let pages: [OnboardingPage] = [
-        OnboardingPage(title: "Extract colors from your surrounding", image: #imageLiteral(resourceName: "OnboardingImage-1"), description: nil, animationName: nil),
-        OnboardingPage(title: "Discover collections of color harmony", image: #imageLiteral(resourceName: "OnboardingImage-2"), description: nil, animationName: nil),
-        OnboardingPage(title: "Create color scheme that match your taste", image: #imageLiteral(resourceName: "OnboardingImage-3"), description: nil, animationName: nil)]
+    let pages = OnboardingContent().pages
     
     override func viewDidLoad() {
         super.viewDidLoad()
